@@ -4,3 +4,6 @@ This project is a three-page Student Profile & Feedback Portal built completely 
 
 <img width="1895" height="972" alt="profile1" src="https://github.com/user-attachments/assets/c1387707-27af-48cd-8bdb-26654710db14" />
 <img width="1891" height="983" alt="profile2" src="https://github.com/user-attachments/assets/5db4f4c0-ad02-431e-b8fb-a51cc67afb58" />
+
+<img width="1895" height="952" alt="feedback1" src="https://github.com/user-attachments/assets/f15e7cb7-5ac4-4031-bf38-8255ebbffc7e" />
+<img width="1891" height="339" alt="feedback2" src="https://github.com/user-attachments/assets/0a648aad-427f-40f8-a531-6172f7cc5e00" />
