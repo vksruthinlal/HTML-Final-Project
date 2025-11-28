@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Form</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+    <header>
+        <h2>Student Registration Form</h2>
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="dashboard.html">Profile</a> |
+            <a href="downloads.html">Feedback</a>
+        </nav>
+        <hr>
+    </header>
+    <section style="width: 600px;">
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+    
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+    
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" required><br><br>
+    
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+    
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="100"><br><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+    
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+    
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time"><br><br>
+    
+                <label for="week">Select Week:</label>
+                <input type="week" id="week" name="week"><br><br>
+    
+                <label for="month">Select Month:</label>
+                <input type="month" id="month" name="month"><br><br>
+            </fieldset>
+    
+            <br>
+    
+            <!-- Education Information -->
+            <fieldset>
+                <legend>Education Information</legend>
+    
+                <label for="qualification">Highest Qualification:</label>
+                <select id="qualification" name="qualification">
+                    <option value="">-- Select --</option>
+                    <option value="plus_two">Plus Two</option>
+                    <option value="ug">Undergraduate</option>
+                    <option value="pg">Postgraduate</option>
+                </select><br><br>
+            </fieldset>
+    
+            <br>
+    
+            <!-- Course Selection -->
+            <fieldset>
+                <legend>Course Selection</legend>
+    
+                <label for="course">Choose Course:</label>
+                <select id="course" name="course">
+                    <optgroup label="Development">
+                        <option value="angular">Angular</option>
+                        <option value="react">React</option>
+                        <option value="python">Python</option>
+                    </optgroup>
+    
+                    <optgroup label="Design">
+                        <option value="uiux">UI/UX Design</option>
+                        <option value="graphics">Graphic Design</option>
+                    </optgroup>
+                </select>
+    
+                <br><br>
+    
+                <label for="suggestCourse">Search Course:</label>
+                <input list="courses" id="suggestCourse" name="suggestCourse">
+                <datalist id="courses">
+                    <option value="Angular"></option>
+                    <option value="React"></option>
+                    <option value="NodeJS"></option>
+                    <option value="UI/UX"></option>
+                    <option value="Flutter"></option>
+                </datalist>
+            </fieldset>
+    
+            <br>
+    
+            <!-- Feedback -->
+            <fieldset>
+                <legend>Feedback</legend>
+    
+                <label for="feedback">Your Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea><br><br>
+            </fieldset>
+    
+            <br>
+    
+            <!-- Photo Upload -->
+            <fieldset>
+                <legend>Upload Photo</legend>
+    
+                <label for="photo">Choose File:</label>
+                <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+            </fieldset>
+    
+            <br>
+    
+            <!-- Agreement -->
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to the <a href="#">terms and conditions</a></label><br><br>
+    
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
